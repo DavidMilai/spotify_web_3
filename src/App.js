@@ -9,7 +9,7 @@ const { Footer, Sider, Content } = Layout;
 const App = () => {
   return (
     <Layout>
-      <Sider>left sidebar</Sider>
+      <Sider width={200}>left sidebar</Sider>
       <Content>
         <Routes>
           <Route path="/" element={<Home />} />

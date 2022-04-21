@@ -7,7 +7,7 @@ import { Layout } from "antd";
 import Spotify from "./images/Spotify.png";
 import { SearchOutlined, DownCircleOutlined } from "@ant-design/icons";
 
-const { Footer, Sider, Content } = Layout;
+const { Sider, Content } = Layout;
 
 const App = () => {
   return (
